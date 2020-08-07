@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "trafic check.o" --strict --scatter "trafic check.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\trafic check.map" -o "trafic check.axf"
